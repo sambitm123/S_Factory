@@ -26,7 +26,7 @@ end
 % now testing of push
 %12345
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %generating code
 set_param(modelName, 'SystemTargetFile', 'ert.tlc'); % Target for code generation (Embedded Real-Time)
 set_param(modelName, 'Solver', 'FixedStepDiscrete'); % Specify solver settings
@@ -34,3 +34,4 @@ set_param(modelName, 'FixedStep', '0.1'); % Set fixed-step size
  
 % Generate code
 rtwbuild(modelName);
+%%%%%%%%%%%%%%%%%%%%%%%%
