@@ -1,6 +1,6 @@
 % this is code for the automate the simulation 
 % f='TRAnsfer_Function'
-f=input("enter the model file name");
+f=input("enter the model file name\n");
 open_system(f)
 % if(is_simulink_loaded)
 %     fprintf("loaded successfully\n");
@@ -13,7 +13,7 @@ if(is_loaded)
 end
  
   simOut=sim(f);
-  simout;
+ 
 set_param(f,"SimulationCommand","start");
 % if simOut.get('Error') == 0
 %     disp("No errors");
