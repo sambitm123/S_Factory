@@ -28,9 +28,9 @@ end
 
 
 %generating code
-set_param(modelName, 'SystemTargetFile', 'ert.tlc'); % Target for code generation (Embedded Real-Time)
-set_param(modelName, 'Solver', 'FixedStepDiscrete'); % Specify solver settings
-set_param(modelName, 'FixedStep', '0.1'); % Set fixed-step size
+set_param(f, 'SystemTargetFile', 'ert.tlc'); % Target for code generation (Embedded Real-Time)
+set_param(f, 'Solver', 'FixedStepDiscrete'); % Specify solver settings
+set_param(f, 'FixedStep', '0.1'); % Set fixed-step size
  
 % Generate code
-rtwbuild(modelName);
+rtwbuild(f);
