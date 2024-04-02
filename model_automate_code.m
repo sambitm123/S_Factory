@@ -1,4 +1,5 @@
-% this is code for the automate the simulation 
+% this is code for the automate the simulation And there it throws error if
+% we are simulating and code generation in same script
 % f='TRAnsfer_Function'
 f=input("enter the model file name\n");
 open_system(f)
