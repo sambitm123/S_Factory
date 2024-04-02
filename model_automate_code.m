@@ -12,7 +12,7 @@ if(is_loaded)
 % else
 %       disp("Model is not successfull");
 end
- %%%
+ % % % % % 
   simOut=sim(f);
  
 set_param(f,"SimulationCommand","start");
