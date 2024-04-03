@@ -26,11 +26,4 @@ else
 end
 % now testing of push
 
-% 
-% %generating code
-% set_param(f, 'SystemTargetFile', 'ert.tlc'); % Target for code generation (Embedded Real-Time)
-% set_param(f, 'Solver', 'FixedStepDiscrete'); % Specify solver settings
-% set_param(f, 'FixedStep', '0.1'); % Set fixed-step size
-% 
-% % Generate code
-% rtwbuild(f);
+
